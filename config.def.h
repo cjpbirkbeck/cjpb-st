@@ -5,11 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-<<<<<<< HEAD
 static char *font = "DejaVu Sans:Mono:pixelsize=11:antialias=true:autohint=true";
-=======
-static char *font = "Deja Vu Sans Mono:pixelsize=12:antialias=true:autohint=true";
->>>>>>> parent of 9f4d84c... Corrected Font Name
 static int borderpx = 2;
 
 /*
