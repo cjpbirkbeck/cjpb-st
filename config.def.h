@@ -7,12 +7,6 @@ char *externalpipe_sigusr1[] = {"/bin/sh", "-c", "externalpipe_buffer.sh st_stri
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "DejaVu Sans Mono:Regular:pixelsize=14:antialias=true:autohint=true";
-/* Spare fonts */
-static char *font2[] = {
-    "Inconsolata:pixelsize=14:antialias=true:autohint=true",
-    /* "Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
-};
-
 static int borderpx = 2;
 
 /*
