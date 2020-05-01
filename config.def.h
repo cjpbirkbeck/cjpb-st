@@ -100,45 +100,45 @@ static const char *colorname[] = {
 
   /* 8 normal colors */
   [0] = "#000000", /* black   */
-  [1] = "#f9555f", /* red     */
-  [2] = "#21b089", /* green   */
-  [3] = "#fef02a", /* yellow  */
-  [4] = "#589df6", /* blue    */
-  [5] = "#944d95", /* magenta */
-  [6] = "#1f9ee7", /* cyan    */
-  [7] = "#bbbbbb", /* white   */
+  [1] = "#ee2b2a", /* red     */
+  [2] = "#40a33f", /* green   */
+  [3] = "#ffea2e", /* yellow  */
+  [4] = "#1e80f0", /* blue    */
+  [5] = "#8800a0", /* magenta */
+  [6] = "#16afca", /* cyan    */
+  [7] = "#a4a4a4", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#555555", /* black   */
-  [9]  = "#fa8c8f", /* red     */
-  [10] = "#35bb9a", /* green   */
-  [11] = "#ffff55", /* yellow  */
-  [12] = "#589df6", /* blue    */
-  [13] = "#e75699", /* magenta */
-  [14] = "#3979bc", /* cyan    */
+  [8]  = "#777777", /* black   */
+  [9]  = "#dc5c60", /* red     */
+  [10] = "#70be71", /* green   */
+  [11] = "#fff163", /* yellow  */
+  [12] = "#54a4f3", /* blue    */
+  [13] = "#aa4dbc", /* magenta */
+  [14] = "#42c7da", /* cyan    */
   [15] = "#ffffff", /* white   */
 
   /* special colors */
-  [256] = "#1d2837", /* background */
-  [257] = "#ffffff", /* foreground */
+  [256] = "#1c262b", /* background */
+  [257] = "#c2c8d7", /* foreground */
 };
 
 /*
  * Default colors (colorname index)
  * foreground, background, cursor
  */
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-unsigned int defaultcs = 257;
-unsigned int defaultrcs = 256;
+static unsigned int defaultfg = 257;
+static unsigned int defaultbg = 256;
+static unsigned int defaultcs = 257;
+static unsigned int defaultrcs = 256;
 
 /*
  * Colors used, when the specific fg == defaultfg. So in reverse mode this
  * will reverse too. Another logic would only make the simple feature too
  * complex.
  */
-unsigned int defaultitalic = 7;
-unsigned int defaultunderline = 7;
+static unsigned int defaultitalic = 7;
+static unsigned int defaultunderline = 7;
 
 /*
  * Default shape of cursor
